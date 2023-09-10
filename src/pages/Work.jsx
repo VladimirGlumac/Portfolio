@@ -212,7 +212,7 @@ export default function Work() {
         <div className="project-container">
           <div className="work-text-div">
             <h2>Goal App</h2>
-            <p className="text-container">Simple but useful app about current Weather, I created it using the popular OpenWeatherMap It uses current data with information about any searched city weather, In this app we can see a couple of useful information like Humidity, Visibility, Wind speed ...
+            <p className="text-container">Goal app is an app with the simple idea of memorizing and reminding us of our Goals with the ability to add new ones to the list as well as delete fulfilled ones.
             </p>
             <Link className="work-link-project" to="https://github.com/VladimirGlumac/SetGoalApp.git">
               <button type="button" className="project-button">
