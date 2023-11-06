@@ -5,6 +5,7 @@ import Lottie from "lottie-react"
 import AnimatedPage from "../components/AnimatedPage"
 import { AiOutlineDoubleRight, AiFillHtml5 } from "react-icons/ai"
 import { Typewriter } from "react-simple-typewriter"
+import file from "../assets/VladimirGlumacCV.pdf"
 
 
 export default function Home() {
@@ -32,7 +33,7 @@ export default function Home() {
             </div>
           </div>
           <div className="about-link">
-            <Link to="/work" className="project-Link">See my projects<AiOutlineDoubleRight style={{ width: 30, height: 15, fontWeight: "bold" }} /></Link>
+            <a href={file} className="project-Link" download>My Resume<AiOutlineDoubleRight style={{ width: 30, height: 15, fontWeight: "bold" }} /></a>
             <Link to="/Contacts" className="project-Link">Contact Me<AiOutlineDoubleRight style={{ width: 30, height: 15, fontWeight: "bold" }} /></Link>
           </div>
         </div>
