@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import AnimatedPage from "../components/AnimatedPage"
 import { BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoFigma } from "react-icons/bi"
 import { AiOutlineDoubleRight, AiFillHtml5 } from "react-icons/ai"
+import { BsFillBootstrapFill } from "react-icons/bs"
 
 
 export default function About() {
@@ -21,6 +22,7 @@ export default function About() {
                     <BiLogoJavascript style={{ height: 80, fontSize: 50 }} className="skilliconjs" />
                     <BiLogoReact style={{ height: 80, fontSize: 50 }} className="skilliconreact" />
                     <BiLogoFigma style={{ height: 80, fontSize: 50 }} className="skilliconfigma" />
+                    <BsFillBootstrapFill style={{ height: 80, fontSize: 50 }} className="skilliconfigma" />
                 </div>
             </div>
         </AnimatedPage>
