@@ -13,7 +13,7 @@ export default function About() {
             <div className="about-container">
 
                 <h2 className="Abouttext">
-                    As a self-thought developer, I started learning the basics of web development like HTML, CSS and JavaScript as a side project because I was always driven towards programming. After I got familiar with the basics I enrolled in one of the courses on Scrimba where I learned more advanced web development skills like React which I used to build mobile apps and websites. Now I'm confident enough to turn this passion into a profession. Currently, I'm finishing studies for Engineer of Energy Technologies on FTN located in Novi Sad.</h2>
+                    As a self-taught developer, I embarked on my journey by learning the fundamentals of web development, such as HTML, CSS, and JavaScript, initially as a side project, driven by my deep-seated passion for programming. As my understanding deepened, I decided to further enhance my skills and enrolled in a Scrimba course, where I delved into more advanced concepts of web development, particularly focusing on React. Using my newfound knowledge, I successfully developed various mobile applications and websites. Now, I am eager to transition this passion into a full-fledged profession. Currently, I am completing my studies for an Engineer of Energy Technologies degree at FTN, located in Novi Sad.</h2>
                 <div className="skills" >
                     <h2 className="skillstext">My Skills:</h2>
                     <AiFillHtml5 style={{ height: 80, fontSize: 50, }} className="skilliconhtml" />
